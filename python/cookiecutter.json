@@ -1,6 +1,6 @@
 {
   "project_name": "python-template",
-  "package_name": "{{ cookiecutter.project_name.replace('-', '_') }}",
+  "project_slug": "{{ cookiecutter.project_name.replace('-', '_') }}",
   "friendly_name": "{{ cookiecutter.project_name.replace('-', ' ').title() }}",
   "description": "",
   "author": "Maxwell Koo",
